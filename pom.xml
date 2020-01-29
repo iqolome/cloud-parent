@@ -25,7 +25,7 @@
 
 	</properties>
 
-	<version>1.0.8.2</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<description>通用顶级POM</description>
 
