@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qolome</groupId>
-	<artifactId>qolome-parent</artifactId>
+	<artifactId>cloud-parent</artifactId>
 	<properties>
 		<com.qolome.version>1.0.0</com.qolome.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
