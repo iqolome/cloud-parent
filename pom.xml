@@ -1,0 +1,125 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.qolome</groupId>
+	<artifactId>qolome-parent</artifactId>
+	<properties>
+		<com.qolome.version>1.0.0</com.qolome.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>8</java.version>
+		<spring-boot-dependencies.version>2.1.2.RELEASE</spring-boot-dependencies.version>
+		<spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
+		<druid-spring-boot-starter.version>1.1.21</druid-spring-boot-starter.version>
+		<springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+		<pagehelper-spring-boot-starter.version>1.2.12</pagehelper-spring-boot-starter.version>
+		<mybatis-spring-boot-starter.version>2.1.1</mybatis-spring-boot-starter.version>
+		<commons-collections4.version>4.4</commons-collections4.version>
+		<commons-net.version>3.6</commons-net.version>
+		<commons-io.version>2.6</commons-io.version>
+		<guava.version>28.1-jre</guava.version>
+		<mybatis-generator.version>1.4.0</mybatis-generator.version>
+		<mybatis-plus-boot-starter.version>3.3.0</mybatis-plus-boot-starter.version>
+		<p6spy.version>3.8.7</p6spy.version>
+
+	</properties>
+
+	<version>1.0.8.2</version>
+	<packaging>pom</packaging>
+	<description>通用顶级POM</description>
+
+	<developers>
+		<developer>
+			<id>Qolome</id>
+			<email>jiangfeng@qolome.com</email>
+			<name>Qolome</name>
+			<organization>丂乐美</organization>
+			<organizationUrl>www.qolome.com</organizationUrl>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot-dependencies.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud-dependencies.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Swagger文档 -->
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger2</artifactId>
+				<version>${springfox-swagger2.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger-ui</artifactId>
+				<version>${springfox-swagger2.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mybatis.spring.boot</groupId>
+				<artifactId>mybatis-spring-boot-starter</artifactId>
+				<version>${mybatis-spring-boot-starter.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>${guava.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.qolome</groupId>
+				<artifactId>cloud-common</artifactId>
+				<version>${com.qolome.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-collections4</artifactId>
+				<version>${commons-collections4.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>${commons-io.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-net</groupId>
+				<artifactId>commons-net</artifactId>
+				<version>${commons-net.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-net</groupId>
+				<artifactId>commons-net</artifactId>
+				<version>${commons-net.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-boot-starter</artifactId>
+				<version>${mybatis-plus-boot-starter.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>p6spy</groupId>
+				<artifactId>p6spy</artifactId>
+				<version>${p6spy.version}</version>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+</project>
