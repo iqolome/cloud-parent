@@ -5,7 +5,7 @@
 	<groupId>com.qolome</groupId>
 	<artifactId>cloud-parent</artifactId>
 	<properties>
-		<com.qolome.version>2.14.0</com.qolome.version>
+		<com.qolome.version>2.0.0-jre14</com.qolome.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>14</java.version>
@@ -31,7 +31,7 @@
 		<sentinel-datasource-apollo.version>1.7.2</sentinel-datasource-apollo.version>
 	</properties>
 
-	<version>2.14.0</version>
+	<version>2.0.0-jre14</version>
 	<packaging>pom</packaging>
 	<description>通用顶级POM</description>
 
