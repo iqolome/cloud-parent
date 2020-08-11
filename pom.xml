@@ -4,6 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qolome</groupId>
 	<artifactId>cloud-parent</artifactId>
+	
+	 <name>cloud-parent</name>
+    <description>cloud-parent</description>
+    <url>https://github.com/jf11480/cloud-parent</url>
+	
 	<properties>
 		<com.qolome.version>2.0.0-jre8</com.qolome.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,18 +40,34 @@
 	<packaging>pom</packaging>
 	<description>通用顶级POM</description>
 
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>actable</distribution>
+		</license>
+	</licenses>
+
 	<developers>
 		<developer>
-			<id>Qolome</id>
-			<email>jiangfeng@qolome.com</email>
+			<id>qolome</id>
+			<email>jf11480@outlook.com</email>
 			<name>Qolome</name>
-			<organization>丂乐美</organization>
+			<organization>qolome</organization>
 			<organizationUrl>www.qolome.com</organizationUrl>
 			<roles>
 				<role>Developer</role>
 			</roles>
+			<timezone>+8</timezone>
 		</developer>
 	</developers>
+
+	<scm>
+		<tag>master</tag>
+		<url>git@github.com:jf11480/cloud-parent.git</url>
+		<connection>scm:git:it@github.com:jf11480/cloud-parent.git</connection>
+		<developerConnection>scm:git:it@github.com:jf11480/cloud-parent.git</developerConnection>
+	</scm>
 
 	<dependencyManagement>
 
@@ -192,16 +213,15 @@
 
 	<distributionManagement>
 		<repository>
-			<id>maven-releases</id>
-			<name>maven-releases</name>
-			<url>http://nexus.qolome.com/repository/maven-releases/</url>
+			<id>sonatype-nexus-staging</id>
+			<name>Nexus Release Repository</name>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 		</repository>
 		<snapshotRepository>
-			<id>maven-snapshots</id>
-			<name>maven-snapshots</name>
-			<url>http://nexus.qolome.com/repository/maven-snapshots/</url>
+			<id>sonatype-nexus-snapshots</id>
+			<name>Sonatype Nexus Snapshots</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 
 	</distributionManagement>
-
 </project>
