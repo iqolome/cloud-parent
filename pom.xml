@@ -38,7 +38,7 @@
 
 	<version>2.0.0-jre8</version>
 	<packaging>pom</packaging>
-	<description>通用顶级POM</description>
+	<description>qolome parent</description>
 
 	<licenses>
 		<license>
