@@ -28,7 +28,7 @@
 		<spring-cloud-zuul-ratelimit.version>2.4.1.RELEASE</spring-cloud-zuul-ratelimit.version>
 		<spring-cloud-starter-alibaba-sentinel.version>2.2.1.RELEASE</spring-cloud-starter-alibaba-sentinel.version>
 		<commons-collections4.version>4.4</commons-collections4.version>
-		<commons-net.version>3.6</commons-net.version>
+		<commons-net.version>3.9.0</commons-net.version>
 		<commons-io.version>2.7</commons-io.version>
 		<commons-beanutils.version>1.9.4</commons-beanutils.version>
 		<guava.version>29.0-jre</guava.version>
